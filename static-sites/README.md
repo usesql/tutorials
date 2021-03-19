@@ -13,10 +13,10 @@ Which generates the following request
 https://usesql.com/sql?query=SELECT%20a.Symbol%2C%20a.Security%2C%20b.Executive%20%0AFROM%20%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_S%2526P_500_companies%22%20a%20%0AJOIN%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fdylanroy%2Fceo-dataset%2Fmain%2Fdata.csv%22%20b%20ON%20a.Security%20%3D%20b.Company&format=html&key={YOUR_API_KEY}
 ```
 
+Note: You can try this out for yourself if you are logged in [here](https://www.usesql.com/sandbox?query=SELECT%20a.Symbol%2C%20a.Security%2C%20b.Executive%20%0AFROM%20%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_S%2526P_500_companies%22%20a%20%0AJOIN%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fdylanroy%2Fceo-dataset%2Fmain%2Fdata.csv%22%20b%20ON%20a.Security%20%3D%20b.Company). If you don't have an account you can also use the demo interface [here](https://www.usesql.com/demo?query=SELECT%20a.Symbol%2C%20a.Security%2C%20b.Executive%20%0AFROM%20%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_S%2526P_500_companies%22%20a%20%0AJOIN%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fdylanroy%2Fceo-dataset%2Fmain%2Fdata.csv%22%20b%20ON%20a.Security%20%3D%20b.Company).
+
 After this you just need to either add a new key or use an existing key.
 ![](https://usesql.github.io/tutorials/docs/images/add-or-use-key.png)
-
-Note: You can try this out for yourself if you are logged in [here](https://www.usesql.com/sandbox?query=SELECT%20a.Symbol%2C%20a.Security%2C%20b.Executive%20%0AFROM%20%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_S%2526P_500_companies%22%20a%20%0AJOIN%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fdylanroy%2Fceo-dataset%2Fmain%2Fdata.csv%22%20b%20ON%20a.Security%20%3D%20b.Company). If you don't have an account you can also use the demo interface [here](https://www.usesql.com/demo?query=SELECT%20a.Symbol%2C%20a.Security%2C%20b.Executive%20%0AFROM%20%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_S%2526P_500_companies%22%20a%20%0AJOIN%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fdylanroy%2Fceo-dataset%2Fmain%2Fdata.csv%22%20b%20ON%20a.Security%20%3D%20b.Company).
 
 ## Step 2: Embed Your Query
 ```html
