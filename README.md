@@ -7,7 +7,7 @@ Here are the resources for running the usage tutorials for [UseSQL](https://uses
  - [Redoc Docs](https://usesql.com/redoc)
 
 # Tutorials
- - [Integrate With Your Static Site]()
+ - [Integrate With Your Static Site](static-sites/README.html)
  - [Share Data In Slack]()
  - [Integrate With A Ghost Website]()
  - [Integrate With A Wordpress Website]()
