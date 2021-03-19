@@ -34,7 +34,7 @@ After that the domain for the static site needs to be entered. For the purposes 
 ![](/docs/images/restrict-domains-2.png)
 
 ## Step 4: Style Your Table (Optional)
-Embed in head.
+The table is returned without any styling applied so in order to apply additional styles we just need to embed the styles applying them using the id we applied earlier to our sql-result. Take a look at the static site source to see how we applied the style below <a href="https://github.com/usesql/tutorials/blob/main/static-sites/index.html" target="_blank">here</a>.
 ```css
 <style>
     #sql-result > table {
@@ -48,4 +48,4 @@ Embed in head.
 ```
 
 ## Completed: Enjoy Your Results
-[here](https://usesql.github.io/tutorials/static-sites/)
+At this point you can take a look at the static site example we built through this tutorial [here](https://usesql.github.io/tutorials/static-sites/), and its source <a href="https://github.com/usesql/tutorials/blob/main/static-sites/index.html" target="_blank">here</a>.
