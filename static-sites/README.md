@@ -24,9 +24,14 @@ Note: You can try this out for yourself if you are logged in [here](https://www.
   .then(data => document.getElementById('sql-result').innerHTML = data);
   </script>
   ```
-At this point you can see your results. The demo can be seen [here](https://usesql.github.io/tutorials/static-sites/) with the styling from step 4, and the source can be seen [here](index.html).
+At this point you can see your results. The demo can be seen [here](https://usesql.github.io/tutorials/static-sites/) with the styling from step 4, and the source can be seen <a href="https://github.com/usesql/tutorials/blob/main/static-sites/index.html" target="_blank">here</a>.
 
 ## Step 3: Secure Your Key (Optional)
+It's pretty easy to secure our key. To add these restrictions we need to login, and navigate to our dashboard clicking on the domains link for the key that we want to add the restriction to shown below.
+![](/docs/images/restrict-domains-1.png)
+
+After that the domain for the static site needs to be entered. For the purposes of the tutorial the domain in this example is entered below. To add more than one domain you just need to seperate it by a comma.
+![](/docs/images/restrict-domains-2.png)
 
 ## Step 4: Style Your Table (Optional)
 Embed in head.
