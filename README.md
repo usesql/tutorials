@@ -1,5 +1,5 @@
 # UseSQL Tutorials
-Here are the resources for running the usage tutorials for [UseSQL](https://usesql.com?ref=github).
+Here are the resources for running the usage tutorials for [UseSQL](https://usesql.com?ref=github). This Can be viewed in Website format at [https://usesql.github.io/tutorials/](https://usesql.github.io/tutorials/)
 
 # Additional Documentation
  - [Documentation Home](https://docs.usesql.com)

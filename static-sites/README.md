@@ -1,0 +1,19 @@
+## Tutorial: Integrate With Your Static Site
+
+### Step 1: Build Your Query In Sandbox or OpenAPI Docs
+
+### Step 2: Embed Your Query
+```html
+  <div id="sql-result"></div>
+  <script>
+  fetch('https://usesql.com/sql?query=SELECT%20a.Symbol%2C%20a.Security%2C%20b.Executive%20%0AFROM%20%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_S%2526P_500_companies%22%20a%20%0AJOIN%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fdylanroy%2Fceo-dataset%2Fmain%2Fdata.csv%22%20b%20ON%20a.Security%20%3D%20b.Company&format=html&key=zJpfI9h8TujjN45cHk1a')
+  .then(response => response.text())
+  .then(data => document.getElementById('sql-result').innerHTML = data);
+  </script>
+  ```
+
+### Step 3: Secure Your Key (Optional)
+
+### Step 4: Style Your Table (Optional)
+
+### Completed: Enjoy Your Results
