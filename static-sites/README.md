@@ -42,5 +42,5 @@ Embed in head.
 </style>
 ```
 
-### Completed: Enjoy Your Results
+## Completed: Enjoy Your Results
 [here](https://usesql.github.io/tutorials/static-sites/)
